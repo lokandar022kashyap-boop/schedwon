@@ -200,11 +200,18 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
   }
 
   .features {
-    grid-template-columns: 1fr 1fr !important;
-  }
+  grid-template-columns: 1fr !important;
+  gap: 10px !important;
+}
+
+.features span {
+  display: block !important;
+  margin-bottom: 8px !important;
+}
 
   .section {
-    padding: 65px 0 !important;
+  padding: 65px 14px !important;
+  box-sizing: border-box !important;
   }
 
   .ctabox {
