@@ -59,7 +59,7 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
     padding: 13px 14px !important;
   }
 
-  .gridhero {
+  .hero-grid {
     grid-template-columns: 1fr !important;
   }
 
@@ -122,7 +122,7 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
     min-height: auto !important;
   }
 
-  .gridhero {
+  .hero-grid {
     display: grid !important;
     grid-template-columns: 1fr !important;
     gap: 38px !important;
