@@ -260,3 +260,38 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
     max-width: 100% !important;
   }
 }
+
+/* Final mobile edge protection */
+@media (max-width: 620px) {
+  .container,
+  .wrap,
+  .hero-grid {
+    box-sizing: border-box !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .hero-grid {
+    width: 100% !important;
+  }
+
+  .hero h1,
+  .lead {
+    max-width: 100% !important;
+  }
+
+  .visual,
+  .mock,
+  .mock-card {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .foot,
+  .footer-grid,
+  .footer-bottom {
+    box-sizing: border-box !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
