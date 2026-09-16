@@ -54,4 +54,33 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
     height: 44px !important;
   }
 }
-  
+ @media (max-width: 768px) {
+  .gridhero {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .hero {
+    padding: 110px 0 60px !important;
+    min-height: auto !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(48px, 14vw, 68px) !important;
+    letter-spacing: -3px !important;
+  }
+
+  .hero .lead {
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+  }
+
+  .orbit {
+    min-height: 360px !important;
+  }
+
+  .orb {
+    width: min(310px, 82vw) !important;
+    height: min(310px, 82vw) !important;
+  }
+ } 
