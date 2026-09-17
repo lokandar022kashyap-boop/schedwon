@@ -295,3 +295,13 @@ footer{border-top:1px solid var(--line);padding:50px 0 25px}.footer-grid{display
     padding-right: 16px !important;
   }
 }
+
+/* Schedwon logo in header */
+.brand img {
+  width: 34px !important;
+  height: 34px !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin-right: 9px !important;
+}
